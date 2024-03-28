@@ -45,6 +45,14 @@ function playGame(choicesIndex) {
         loses++;
     }
 
+    document.getElementById('resetScore').onclick = () => {
+        wins = 0;
+        loses = 0;
+
+        document.getElementById('wins').textContent = `Wins: ${wins}`;
+        document.getElementById('loses').textContent = `Loses: ${loses}`;
+    };
+
     document.getElementById('wins').textContent = `Wins: ${wins}`;
     document.getElementById('loses').textContent = `Loses: ${loses}`;
 }

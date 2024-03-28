@@ -38,3 +38,17 @@ h1 {
 #scoreBoard {
     font-size: 3rem;
 }
+
+#resetScore {
+    width: 100px;
+    height: 50px;
+    padding: 3px;
+    background-color: hsl(200, 100%, 50%);
+    color: black;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#resetScore {
+    background-color: hsl(200, 100%, 70%);
+}
